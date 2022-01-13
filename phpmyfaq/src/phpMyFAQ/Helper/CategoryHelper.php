@@ -346,7 +346,7 @@ class CategoryHelper extends Helper
         foreach ($categories as $category) {
             $decks .= '<div class="card mb-4"><a href="' . $category['url'] . '">';
             if ('' !== $category['image']) {
-                $decks .= '<img class="card-img-top embed-responsive-item" width="200" alt="' .
+                $decks .= '<img class="pt-4 embed-responsive-item" width="200" alt="' .
                 $category['name'] . '" src="' . $category['image'] . '" />';
             }
             $decks .= '</a>' .
